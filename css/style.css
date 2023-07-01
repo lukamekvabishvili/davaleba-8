@@ -1,0 +1,146 @@
+header{
+    height: 84px;
+}
+
+.headerflex{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+li a{
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.fa-bars{
+    display: none;
+}
+
+/*section 1 */
+
+.s-1{
+    height: 669px;
+    background-image: url(../images/Greece.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 84px;
+}
+
+.infodiv h2{
+    font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 91px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+
+}
+
+.infodiv h5{
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+/* section 2 */
+
+.section2flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infobox{
+    width: 235px;
+}
+
+.infobox h4{
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636060;
+    margin-bottom: 10px;
+
+}
+
+.infobox h3{
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #010101;
+    margin-bottom: 37px;
+}
+
+.infobox p{
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636060;
+}
+.cardwrapper{
+    max-width: 924px;
+    width: 100%;
+}
+.card{
+    width: 286px;
+}
+.card img{
+    width: 100%;
+}
+.card h4{
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #343232;  
+}
+.card p{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #636060;  
+}
