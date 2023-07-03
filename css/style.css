@@ -12,7 +12,7 @@ header{
 }
 
 .container{
-    max-width: 1500px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
 }
@@ -116,15 +116,21 @@ li a{
     text-align: left;
     color: #636060;
 }
-.cardwrapper{
+.cardswrapper{
     max-width: 924px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card{
     width: 286px;
+    margin: 0 10px;
+    margin-bottom: 56px;
 }
 .card img{
     width: 100%;
+    margin-bottom: 23px;
 }
 .card h4{
     font-family: Helvetica;
@@ -133,7 +139,8 @@ li a{
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
-    color: #343232;  
+    color: #343232; 
+    margin-bottom: 10px; 
 }
 .card p{
     font-family: Helvetica;
